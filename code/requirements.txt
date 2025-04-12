@@ -7,3 +7,4 @@ catboost==1.2.7
 matplotlib==3.7.1
 streamlit==1.25.0
 joblib==1.2.0
+pillow==9.5.0

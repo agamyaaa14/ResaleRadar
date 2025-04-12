@@ -1,10 +1,10 @@
 pandas
-numpy
-catboost
 scikit-learn
-streamlit
 matplotlib
 seaborn
+streamlit==1.32.2
+catboost==1.2
+numpy==1.24.4
 plotly
 joblib
 streamlit-option-menu

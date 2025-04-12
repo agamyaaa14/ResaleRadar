@@ -1,0 +1,11 @@
+pandas
+numpy
+catboost
+scikit-learn
+streamlit
+matplotlib
+seaborn
+plotly
+joblib
+streamlit-option-menu
+optuna

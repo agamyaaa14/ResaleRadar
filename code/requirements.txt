@@ -4,9 +4,11 @@ numpy==1.23.5
 pandas==1.5.3
 scikit-learn==1.2.2
 matplotlib==3.7.1
-streamlit==1.24.1
-catboost==1.2.2
+catboost==1.1.1
+streamlit==1.25.0
 joblib==1.2.0
+
+# Force pip upgrade and build tools
 pip==24.0
 setuptools>=65.5.0
 wheel>=0.38.4

@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://agamyaaa14:$HF_TOKEN@huggingface.co/spaces/agamyaaa14/ResaleRadar main
+        run: git push https://Agamya14:$HF_TOKEN@huggingface.co/spaces/Agamya14/ResaleRadar main

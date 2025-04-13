@@ -10,6 +10,11 @@ st.markdown("""
         background-color: #0f1117;
         color: white;
     }
+    .stSelectbox label, .stNumberInput label, .stSlider label, .stTextInput label {
+        color: white !important;
+        font-weight: 600;
+        font-size: 16px;
+    }
     .stApp {
         background-color: #0f1117;
         color: white;
@@ -76,14 +81,14 @@ if mode == "I don't know specs":
 else:
     st.markdown("##### Enter detailed specifications:")
     car_age = st.number_input("Car Age (Years)", min_value=0, max_value=30, value=0)
-    km_driven = st.number_input("KM Driven", min_value=0, max_value=500000, value=0, step=5000)
+    km_driven = st.slider("KM Driven", min_value=0, max_value=160000, value=48000, step=1000)
     no_of_owner = st.selectbox("Number of Owners", sorted(df['no_of_owner'].dropna().unique()))
-    fuel_tank_capacity = st.number_input("Fuel Tank Capacity (L)", value=0.0)
-    displacement = st.number_input("Engine Displacement (cc)", value=0)
-    mileage = st.number_input("Mileage (kmpl)", value=0.0)
-    bootspace = st.number_input("Bootspace (L)", value=0)
+    fuel_tank_capacity = st.slider("Fuel Tank Capacity (L)", min_value=20, max_value=85, value=44, step=1)
+    displacement = st.slider("Engine Displacement (cc)", min_value=600, max_value=2800, value=1290, step=50)
+    mileage = st.slider("Mileage (kmpl)", min_value=8.0, max_value=35.0, value=19.0, step=0.5)
+    bootspace = st.slider("Bootspace (L)", min_value=100, max_value=800, value=346, step=10)
     seating_capacity = st.selectbox("Seating Capacity", [4, 5, 6, 7])
-    avg_tyre_life = st.slider("Tyre Life Remaining (%)", 0, 100, value=0)
+    avg_tyre_life = st.slider("Tyre Life Remaining (%)", 20, 100, value=65, step=5)
 
 # Auto-fill if not manual mode
 price_segment = 'Mid-Range' if 'Mid' in model_selected or model_mean.get("price_segment") == "Mid-Range" else 'Budget'

@@ -42,7 +42,7 @@ df['brand'] = df['name_model'].str.split().str[1]
 df['model'] = df['name_model'].str.extract(rf'{df["brand"].iloc[0]}\s+(.*?)\s')
 
 # Logo/Slogan
-st.image("rr1.png", use_container_width=True)
+st.image("images/rr1.png", use_container_width=True)
 
 mode = st.sidebar.radio("Choose Input Mode", ["I don't know specs", "I know specs"])
 

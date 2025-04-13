@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from catboost import CatBoostRegressor
 
-### Custom CSS for styling
+# Custom CSS for styling
 st.markdown("""
     <style>
     body {

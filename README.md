@@ -168,7 +168,7 @@ The plot above shows the relative importance of each feature in the Optuna-tuned
 ---
 
 ## ⚠️ Disclaimer
-[car](images/rr2.png)
+![car](images/rr2.png)
 
 > *This prediction is generated using machine learning models trained on past data. Actual market value may differ depending on demand, condition, negotiation, and dealer margins.*
 

@@ -21,7 +21,7 @@ With advanced feature engineering and a finely-tuned **CatBoost Regressor**, Res
   -  *Know your specs*
   -  *Intelligent defaults based on car brand/model*
 - Deployed as a public app: [ResaleRadar on Streamlit](https://resaleradar.streamlit.app)
-- 
+ 
 ---
 
 ## 🧠 Feature Engineering
@@ -132,7 +132,7 @@ The plot above shows the relative importance of each feature in the Optuna-tuned
 - Sliders have sensible pre-set ranges informed by the dataset.
 
 ### 📌 Screenshot of Streamlit UI
-![Streamlit UI](images/interface.png)
+![Streamlit UI](images/interface.jpg)
 
 ---
 
@@ -168,7 +168,7 @@ The plot above shows the relative importance of each feature in the Optuna-tuned
 ---
 
 ## ⚠️ Disclaimer
-[car](images/rr.png)
+[car](images/rr2.png)
 
 > *This prediction is generated using machine learning models trained on past data. Actual market value may differ depending on demand, condition, negotiation, and dealer margins.*
 

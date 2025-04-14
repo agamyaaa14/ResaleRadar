@@ -1,10 +1,10 @@
-# 🚗 ResaleRadar – Used Car Price Prediction App
+# ResaleRadar – Used Car Price Prediction App
 
 ![App Banner](images/rr1.png)
 
-> 🔮 Predict resale values of used cars in India using ML-powered insights and a clean Streamlit UI.
+>  Predict resale values of used cars in India using ML-powered insights and a clean Streamlit UI.
 
-## 📘 Overview
+##  Overview
 
 **ResaleRadar** is a full-stack machine learning application that predicts the **resale price** of used cars based on real-world car listings. The web app is deployed on **Streamlit Cloud** and is designed to support **Car Sellers / Buyers** – Get a realistic price estimate for a used car.
 
@@ -12,14 +12,14 @@ With advanced feature engineering and a finely-tuned **CatBoost Regressor**, Res
 
 ---
 
-## 🌟 Key Highlights
+##  Key Highlights
 
 - **781 Cleaned Rows** of Real-World Car Listings from **Spinny**
 - Extensive **Feature Engineering** for impactful predictions
 - **Optuna-Tuned CatBoost** for best-in-class regression
 - **Streamlit Interface** with Two Input Modes: 
-  - 🔍 *Know your specs*
-  - 🤖 *Intelligent defaults based on car brand/model*
+  -  *Know your specs*
+  -  *Intelligent defaults based on car brand/model*
 - Deployed as a public app: [ResaleRadar on Streamlit](https://resaleradar.streamlit.app)
 - 
 ---
@@ -103,7 +103,7 @@ Weighted loss and log transformation were crucial in achieving balanced performa
 
 ## 📊 Feature Importance
 
-![Feature Importance Plot](images/rr2.png)
+![Feature Importance Plot](images/feature_imp.png)
 
 The plot above shows the relative importance of each feature in the Optuna-tuned CatBoost model:
 
@@ -131,9 +131,8 @@ The plot above shows the relative importance of each feature in the Optuna-tuned
 - Dropdowns for **brand**, **model**, and **location** improve UX.
 - Sliders have sensible pre-set ranges informed by the dataset.
 
-### 📌 Screenshots
-![Streamlit UI](images/ui_interface.png)
-![Feature Importance](images/feature_importance.png)
+### 📌 Screenshot of Streamlit UI
+![Streamlit UI](images/interface.png)
 
 ---
 
@@ -159,12 +158,6 @@ The plot above shows the relative importance of each feature in the Optuna-tuned
 
 ---
 
-## ⚠️ Disclaimer
-
-> *This prediction is generated using machine learning models trained on past data. Actual market value may differ depending on demand, condition, negotiation, and dealer margins.*
-
----
-
 ##  Acknowledgements
 
 - [Spinny](https://www.spinny.com) – for the dataset inspiration
@@ -173,6 +166,13 @@ The plot above shows the relative importance of each feature in the Optuna-tuned
 - [Streamlit](https://streamlit.io) – for building the interactive web app
 
 ---
+
+## ⚠️ Disclaimer
+[car](images/rr.png)
+
+> *This prediction is generated using machine learning models trained on past data. Actual market value may differ depending on demand, condition, negotiation, and dealer margins.*
+
+--- 
 
 ## 📂 Repository Structure
 
